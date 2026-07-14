@@ -19,6 +19,7 @@
 <header>
 
 <div class="container">
+<div class="header-top">
 
 <div class="logo">
 <h2>AngMiraeup Skillpath Services</h2>
@@ -26,16 +27,15 @@
 
 <button class="menu-toggle">&#9776;</button>
 
+</div>
+
 <nav id="navbar">
 
 <ul>
 
 <li><a href="index.html">Home</a></li>
-
 <li><a href="about.html">About</a></li>
-
 <li><a href="services.html">Services</a></li>
-
 <li><a href="contact.html">Contact</a></li>
 
 </ul>
@@ -415,7 +415,7 @@ All Rights Reserved.
 <script>
 
 const menu=document.querySelector(".menu-toggle");
-const nav=document.querySelector("#navbar");
+const nav=document.getElementById("navbar");
 
 menu.onclick=function(){
 
