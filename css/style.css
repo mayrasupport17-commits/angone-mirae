@@ -1124,3 +1124,41 @@ border:none;
 }
 
 /* ================= END ================= */
+/* ===== Mobile Menu Fix ===== */
+
+@media (max-width:768px){
+
+#navbar{
+display:block !important;
+}
+
+#navbar ul{
+display:flex !important;
+flex-direction:row !important;
+justify-content:center;
+align-items:center;
+gap:12px;
+padding:0;
+margin:10px 0;
+list-style:none;
+flex-wrap:wrap;
+}
+
+#navbar ul li{
+margin:0 !important;
+}
+
+#navbar ul li a{
+font-size:15px;
+font-weight:600;
+}
+
+.menu-toggle{
+display:none !important;
+}
+
+header .container{
+padding:12px 0;
+}
+
+}
