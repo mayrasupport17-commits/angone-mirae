@@ -1,0 +1,5 @@
+User-agent: *
+
+Allow: /
+
+Sitemap: https://angmiraeupskillpathservices.online/sitemap.xml
